@@ -40,10 +40,10 @@ Gitlab::Application.routes.draw do
   #
   # Public namespace
   #
-  namespace :public do
-    resources :projects, only: [:index]
-    root to: "projects#index"
-  end
+  # namespace :public do
+  #   resources :projects, only: [:index]
+  #   root to: "projects#index"
+  # end
 
   #
   # Admin Area
